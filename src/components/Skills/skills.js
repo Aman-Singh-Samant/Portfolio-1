@@ -1,6 +1,6 @@
 import React from 'react'
 import './skills.css'
-import Frontend from '../../assets/frontend.jpeg'
+import Frontend from '../../assets/frontend.png'
 import Backend from '../../assets/backend.png'
 import Database from '../../assets/database.png'
 
@@ -12,18 +12,22 @@ const Skills = ()=>{
             <div className='skillSet'>
                 <div className='skill'>
                     <img src={Frontend} alt='' className='skillImg'/>
-                    <div className='skillName'>Frontend</div>
-                    <div className='skillInfo'>This is a demo thext la la ala hha hello eveyone genki desu ka.</div>
-                </div>
+                    <div className='skillName'>Frontend
+                        <div className='skillInfo'>This is a demo thext la la ala hha hello eveyone genki desu ka.</div>
+                    </div>
+                    </div>
                 <div className='skill'>
                     <img src={Backend} alt='' className='skillImg'/>
-                    <div className='skillName'>Backend </div>
-                    <div className='skillInfo'>This is a demo thext la la ala hha hello eveyone genki desu ka.</div>
+                    <div className='skillName'>Backend 
+                        <div className='skillInfo'>This is a demo thext la la ala hha hello eveyone genki desu ka.</div>
+                    </div>
                 </div>
                 <div className='skill'>
                     <img src={Database} alt='' className='skillImg'/>
-                    <div className='skillName'>Database Design</div>
-                    <div className='skillInfo'>This is a demo thext la la ala hha hello eveyone genki desu ka.</div>
+                    <div className='skillName'>Database Design
+                        <div className='skillInfo'>This is a demo thext la la ala hha hello eveyone genki desu ka.</div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
