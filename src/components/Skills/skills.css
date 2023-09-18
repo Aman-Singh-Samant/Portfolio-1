@@ -1,4 +1,4 @@
-.skills {
+#skills {
  
     padding-top: 5vh;
     overflow: hidden;
@@ -21,7 +21,7 @@
 .heading{
     font-size: 7vh;
     font-weight: 600;
-    padding-top: 3rem;
+    padding-top: 1rem;
     margin-bottom: 1.5rem;
 }
 .skillSet{

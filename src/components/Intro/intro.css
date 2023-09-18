@@ -5,6 +5,7 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+
 }
 .rightIntro {
     height: 100vh;
@@ -29,12 +30,16 @@
     font-size: 3rem;
     font-weight: 100;
 }
+#aman{
+    color: yellow;
+}
 .btn{
     background-color: white;
     margin:1rem 0;
     padding: 1rem 1.5rem;
     border: none;
     border-radius: 2rem;
+    cursor: pointer;
 }
 .btnImg{
     object-fit: contain;
@@ -42,15 +47,22 @@
     height: 1rem;
 
 }
+.info{
+    font-size: 1rem;
+    font-weight: 400;
+}
 @media screen and (max-width:700px) {
     .rightIntro{
         right: -10vw
     }
     .leftIntro{
+        font-size: 4vw;
+    }
+    .hello, .next{
         font-size: 6vw;
     }
-    .hello{
-        font-size: 4vw;
+    .info{
+        font-size: 2.5vw;
     }
 
 }
